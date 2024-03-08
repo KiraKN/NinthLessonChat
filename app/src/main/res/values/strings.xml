@@ -1,4 +1,5 @@
 <resources>
+    <string name="message_one">Привет, как дела?</string>
+    <string name="message_two">Привет, отлично! У тебя?</string>
     <string name="app_name">NinthLessonChat</string>
-    <string name="message_one">Привет, какие планы на выходные?</string>
 </resources>

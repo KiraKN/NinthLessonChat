@@ -35,4 +35,40 @@
             motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="25dp" />
     </ConstraintSet>
+
+
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:autoTransition="animateToEnd"
+        motion:duration="1000">
+        <KeyFrameSet>
+        </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start_two">
+
+        <Constraint
+            android:id="@+id/message_two"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="25dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end_two">
+
+        <Constraint
+            android:id="@+id/message_two"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="25dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="25dp" />
+    </ConstraintSet>
+
 </MotionScene>
